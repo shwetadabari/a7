@@ -1,0 +1,27 @@
+{
+  "domain": "ankletbadger.com",
+  "brand": "Anklet Badger Knitting Guild",
+  "niche": "Socks / High-Tensile Merino Wool Sockcraft Guild",
+  "assigned_address": "1801 California Street, Suite 4400, Denver, CO 80202, United States",
+  "assigned_phone": "+1-877-384-9051",
+  "assigned_email": "concierge@ankletbadger.com",
+  "ga_tag": "G-0LY0HY7L01",
+  "total_images": 20,
+  "all_images_gt_20kb": true,
+  "zero_image_repetition": true,
+  "zero_php": true,
+  "strict_no_blog": true,
+  "rule_13_no_buildings": true,
+  "pages": [
+    "index.html",
+    "about.html",
+    "products.html",
+    "contact.html",
+    "faq.html",
+    "privacy-policy.html",
+    "terms-and-conditions.html",
+    "disclaimer.html",
+    "cookie-policy.html"
+  ],
+  "created_at": "2026-01-01"
+}
