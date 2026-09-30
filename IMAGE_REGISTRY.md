@@ -6,12 +6,12 @@ Strict Rule 13 Compliance: ZERO images, descriptions, or alt texts relating to h
 
 | Asset Name | Page Placed | Section / Context | Dimensions | File Size | Unique MD5 Hash | Real Photographic Description |
 |---|---|---|---|---|---|---|
-| `ankletbadger_asset_1.jpg` | `index.html` | Section 1: Tactical Ridge Hero Masthead | 1200x800 | 243 KB | `d4e1e99324e03a67bd47048a97c5410d` | Rugged thick-knit grey merino wool boot anklet socks folded on rustic pine board with leather boots |
-| `ankletbadger_asset_2.jpg` | `index.html` | Section 3: The Badger Woolen Shield Manifesto | 1200x800 | 133 KB | `f205aa0d37e2a3766430e999272b5eb2` | Extreme macro photograph of dense 200-needle rib knit texture and elastic arch band in wool sock |
-| `ankletbadger_asset_3.jpg` | `index.html` | Section 5: Alpine Lookbook Duo 1 | 1200x800 | 300 KB | `b11f0716d7a490695b236abf1909ebf2` | Master knitter hands using wooden knitting needles with natural tweed yarn in alpine workshop |
-| `ankletbadger_asset_4.jpg` | `index.html` | Section 5: Alpine Lookbook Duo 2 | 1200x800 | 176 KB | `3469b31aceac3df00c69b0dab8bdc009` | Pair of beige waffle-knit hiking anklet socks laid flat on weathered wood table |
-| `ankletbadger_asset_5.jpg` | `index.html` | Section 7: Craft Row 1 - Seamless Toe | 1200x800 | 199 KB | `337c5aacac806ae3212dfb5c54b4688d` | Close-up macro of hand-linked seamless toe closure and cushioned terry loop footbed |
-| `ankletbadger_asset_6.jpg` | `index.html` | Section 7: Craft Row 2 - Wooden Sock Blockers | 1200x800 | 265 KB | `35ae7074040d1c396310c94b3017f212` | Knitting workshop flat lay: wooden sock blockers, wool yarn skeins, and brass gauge ruler |
+| `ankletbadger_asset_1.jpg` | `index.php` | Section 1: Tactical Ridge Hero Masthead | 1200x800 | 243 KB | `d4e1e99324e03a67bd47048a97c5410d` | Rugged thick-knit grey merino wool boot anklet socks folded on rustic pine board with leather boots |
+| `ankletbadger_asset_2.jpg` | `index.php` | Section 3: The Badger Woolen Shield Manifesto | 1200x800 | 133 KB | `f205aa0d37e2a3766430e999272b5eb2` | Extreme macro photograph of dense 200-needle rib knit texture and elastic arch band in wool sock |
+| `ankletbadger_asset_3.jpg` | `index.php` | Section 5: Alpine Lookbook Duo 1 | 1200x800 | 300 KB | `b11f0716d7a490695b236abf1909ebf2` | Master knitter hands using wooden knitting needles with natural tweed yarn in alpine workshop |
+| `ankletbadger_asset_4.jpg` | `index.php` | Section 5: Alpine Lookbook Duo 2 | 1200x800 | 176 KB | `3469b31aceac3df00c69b0dab8bdc009` | Pair of beige waffle-knit hiking anklet socks laid flat on weathered wood table |
+| `ankletbadger_asset_5.jpg` | `index.php` | Section 7: Craft Row 1 - Seamless Toe | 1200x800 | 199 KB | `337c5aacac806ae3212dfb5c54b4688d` | Close-up macro of hand-linked seamless toe closure and cushioned terry loop footbed |
+| `ankletbadger_asset_6.jpg` | `index.php` | Section 7: Craft Row 2 - Wooden Sock Blockers | 1200x800 | 265 KB | `35ae7074040d1c396310c94b3017f212` | Knitting workshop flat lay: wooden sock blockers, wool yarn skeins, and brass gauge ruler |
 | `ankletbadger_asset_7.jpg` | `about.html` | Heritage Row 1 - Guild Origins | 1200x800 | 117 KB | `997d5772b88d331d1e1a42d6cf6a9d52` | Rolled stack of colorful patterned wool anklet socks arranged neatly in rustic basket |
 | `ankletbadger_asset_8.jpg` | `about.html` | Heritage Row 2 - Ethical Merino Fleece | 1200x800 | 118 KB | `397f06c86bffe28ddecf3f7e75529902` | Natural undyed cream sheep wool fleece and spinning wheel spool in alpine fiber studio |
 | `ankletbadger_asset_9.jpg` | `about.html` | Heritage Row 3 - 4-Ply Heel Shield | 1200x800 | 264 KB | `dae5b50df06a3b1e5c146eaee61116df` | Knitted sock heel cup construction showing reinforced double-ply nylon yarn weave |

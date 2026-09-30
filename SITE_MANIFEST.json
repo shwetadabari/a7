@@ -13,7 +13,7 @@
   "strict_no_blog": true,
   "rule_13_no_buildings": true,
   "pages": [
-    "index.html",
+    "index.php",
     "about.html",
     "products.html",
     "contact.html",

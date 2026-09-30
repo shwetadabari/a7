@@ -33,7 +33,7 @@ def get_header(active_page):
   <header class="site-header">
     <div class="ab-container">
       <div class="ab-nav-wrapper">
-        <a href="index.html" class="ab-brand">
+        <a href="index.php" class="ab-brand">
           <div class="ab-brand-emblem">⩕</div>
           <div class="ab-brand-title">
             Anklet Badger
@@ -41,7 +41,7 @@ def get_header(active_page):
           </div>
         </a>
         <nav class="ab-nav-menu">
-          <a href="index.html" class="ab-nav-link {idx_cls}">Tactical Ridge</a>
+          <a href="index.php" class="ab-nav-link {idx_cls}">Tactical Ridge</a>
           <a href="about.html" class="ab-nav-link {abt_cls}">Guild Heritage</a>
           <a href="products.html" class="ab-nav-link {prd_cls}">Tensile Anklets</a>
           <a href="faq.html" class="ab-nav-link {faq_cls}">Fiber FAQ</a>
@@ -70,7 +70,7 @@ def get_header(active_page):
       <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close Drawer">&times;</button>
     </div>
     <div class="mobile-drawer-body">
-      <a href="index.html" class="mobile-nav-link">Tactical Ridge Flagship</a>
+      <a href="index.php" class="mobile-nav-link">Tactical Ridge Flagship</a>
       <a href="about.html" class="mobile-nav-link">Guild Heritage &amp; Merino</a>
       <a href="products.html" class="mobile-nav-link">High-Tensile Anklets</a>
       <a href="faq.html" class="mobile-nav-link">Fiber Care &amp; Tech FAQ</a>
@@ -106,7 +106,7 @@ def get_footer():
         <div class="ab-footer-col">
           <h4>Guild Anklets</h4>
           <ul class="ab-footer-links">
-            <li><a href="index.html">Tactical Ridge Home</a></li>
+            <li><a href="index.php">Tactical Ridge Home</a></li>
             <li><a href="about.html">Merino Wool Heritage</a></li>
             <li><a href="products.html">Tensile Anklet Matrix</a></li>
             <li><a href="faq.html">Sockcraft &amp; Care FAQ</a></li>
@@ -163,7 +163,7 @@ def build_index():
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anklet Badger | High-Tensile Merino Wool Sockcraft Guild</title>
   <meta name="description" content="Anklet Badger Knitting Guild in Denver crafts high-tensile 200-needle merino wool anklet socks with seamless hand-linked toes and reinforced badger heel cups.">
-  <link rel="canonical" href="https://{DOMAIN}/index.html">
+  <link rel="canonical" href="https://{DOMAIN}/index.php">
   {GTAG}
   {FONTS}
   <link rel="stylesheet" href="assets/css/style.css">
@@ -1474,7 +1474,7 @@ def build_cookie():
 
 def build_sitemap():
     pages = [
-        "index.html", "about.html", "products.html", "faq.html", "contact.html",
+        "index.php", "about.html", "products.html", "faq.html", "contact.html",
         "privacy-policy.html", "terms-and-conditions.html", "disclaimer.html", "cookie-policy.html"
     ]
     urls = ""
@@ -1483,7 +1483,7 @@ def build_sitemap():
     <loc>https://{DOMAIN}/{p}</loc>
     <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>{"1.0" if p == "index.html" else "0.8"}</priority>
+    <priority>{"1.0" if p == "index.php" else "0.8"}</priority>
   </url>\n"""
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -1514,12 +1514,12 @@ def build_registries():
     
     # placement map
     placement = {
-        1: ("index.html", "Section 1: Tactical Ridge Hero Masthead"),
-        2: ("index.html", "Section 3: The Badger Woolen Shield Manifesto"),
-        3: ("index.html", "Section 5: Alpine Lookbook Duo 1"),
-        4: ("index.html", "Section 5: Alpine Lookbook Duo 2"),
-        5: ("index.html", "Section 7: Craft Row 1 - Seamless Toe"),
-        6: ("index.html", "Section 7: Craft Row 2 - Wooden Sock Blockers"),
+        1: ("index.php", "Section 1: Tactical Ridge Hero Masthead"),
+        2: ("index.php", "Section 3: The Badger Woolen Shield Manifesto"),
+        3: ("index.php", "Section 5: Alpine Lookbook Duo 1"),
+        4: ("index.php", "Section 5: Alpine Lookbook Duo 2"),
+        5: ("index.php", "Section 7: Craft Row 1 - Seamless Toe"),
+        6: ("index.php", "Section 7: Craft Row 2 - Wooden Sock Blockers"),
         7: ("about.html", "Heritage Row 1 - Guild Origins"),
         8: ("about.html", "Heritage Row 2 - Ethical Merino Fleece"),
         9: ("about.html", "Heritage Row 3 - 4-Ply Heel Shield"),
@@ -1611,7 +1611,7 @@ def build_registries():
         "strict_no_blog": True,
         "rule_13_no_buildings": True,
         "pages": [
-            "index.html", "about.html", "products.html", "contact.html", "faq.html",
+            "index.php", "about.html", "products.html", "contact.html", "faq.html",
             "privacy-policy.html", "terms-and-conditions.html", "disclaimer.html", "cookie-policy.html"
         ],
         "created_at": "2026-01-01"
@@ -1622,7 +1622,7 @@ def build_registries():
 def generate_all():
     print("Generating pages for Anklet Badger Knitting Guild...")
     pages = {
-        "index.html": build_index(),
+        "index.php": build_index(),
         "about.html": build_about(),
         "products.html": build_products(),
         "contact.html": build_contact(),

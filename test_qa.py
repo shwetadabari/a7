@@ -70,13 +70,13 @@ def run_qa():
                 php_files.append(os.path.join(root, f))
     assert_check("Zero PHP files allowed (Rule 3)", len(php_files) == 0, f"Found PHP files: {php_files}")
 
-    # 2. Homepage MUST be index.html
-    index_path = os.path.join(SITE_DIR, "index.html")
-    assert_check("Homepage is index.html (Rule 3)", os.path.exists(index_path))
+    # 2. Homepage MUST be index.php
+    index_path = os.path.join(SITE_DIR, "index.php")
+    assert_check("Homepage is index.php (Rule 3)", os.path.exists(index_path))
 
     # 3. All 9 mandatory HTML pages exist
     mandatory_pages = [
-        "index.html", "about.html", "products.html", "contact.html", "faq.html",
+        "index.php", "about.html", "products.html", "contact.html", "faq.html",
         "privacy-policy.html", "terms-and-conditions.html", "disclaimer.html", "cookie-policy.html"
     ]
     for p in mandatory_pages:
@@ -118,7 +118,7 @@ def run_qa():
                     header_drawer_errors.append(f"{p} has {len(parser.drawers)} mobile-drawer divs (expected 1)")
     assert_check("Exactly 1 header and 1 mobile drawer per page (Rule 11)", len(header_drawer_errors) == 0, f"Errors: {header_drawer_errors}")
 
-    # 7. Index.html has at least 10 meaningful sections (Rule 6)
+    # 7. index.php has at least 10 meaningful sections (Rule 6)
     with open(index_path, "r", encoding="utf-8") as f:
         content = f.read()
         sections = re.findall(r'<(?:section|div)[^>]*class=["\'][^"\']*(?:ab-hero|ab-ticker|ab-section)[^"\']*["\']', content)
